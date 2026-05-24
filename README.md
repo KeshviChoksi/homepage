@@ -69,7 +69,7 @@ Deployed via GitHub Pages at: `https://keshvichoksi.github.io/homepage`
 All pages validated at [https://validator.w3.org](https://validator.w3.org) — no errors.
 
 ## Demo Video
-
+https://www.youtube.com/watch?v=28LdVEsIMog
 
 
 ## GenAI Usage
