@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Keshvi Choksi" />
+    <meta
+      name="description"
+      content="Keshvi Choksi – MS Computer Science at Northeastern University. Full-Stack Developer and AI/ML Engineer."
+    />
+    <title>Keshvi Choksi</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <!-- NAV -->
+    <nav class="nav" id="main-nav">
+      
+      <a class="nav__logo" href="index.html">KC</a>
+      <ul class="nav__links">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="pages/about.html">About</a></li>
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#experience">Experience</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
+        <li><a class="nav__link" href="pages/ai-generated.html">Writing</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Hi, I'm</p>
+        <h1 class="hero__name">Keshvi<br /><em>Choksi</em></h1>
+        <p class="hero__tagline">
+          MS Computer Science @ Northeastern - building intelligent
+          systems at the intersection of full-stack engineering and AI/ML.
+        </p>
+        <div class="hero__cta-row">
+          <a class="btn btn--primary" href="pages/about.html">About Me</a>
+          <a class="btn btn--outline" href="#projects">View Projects</a>
+        </div>
+      </div>
+      <div class="hero__decoration" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__code-card">
+          <span class="code-line"
+            ><span class="c-kw">const</span> keshvi = {</span
+          >
+          <span class="code-line">
+            role: <span class="c-str">"AI/ML + Full-Stack"</span>,</span
+          >
+          <span class="code-line">
+            school: <span class="c-str">"Northeastern"</span>,</span
+          >
+          <span class="code-line">
+            passion: <span class="c-str">"intelligent systems"</span></span
+          >
+          <span class="code-line">};</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills__grid">
+        <div class="skill-card" data-category="Languages">
+          <h3 class="skill-card__title">Languages</h3>
+          <div class="skill-card__tags">
+            <span class="tag">Python</span
+            ><span class="tag">JavaScript (ES6+)</span
+            ><span class="tag">SQL</span><span class="tag">HTML5</span
+            ><span class="tag">CSS3</span><span class="tag">Dart</span>
+          </div>
+        </div>
+        <div class="skill-card" data-category="AI/ML">
+          <h3 class="skill-card__title">AI / ML</h3>
+          <div class="skill-card__tags">
+            <span class="tag">PyTorch</span><span class="tag">TensorFlow</span
+            ><span class="tag">Scikit-learn</span
+            ><span class="tag">XGBoost</span><span class="tag">YOLO</span
+            ><span class="tag">LangChain</span><span class="tag">FAISS</span
+            ><span class="tag">HuggingFace</span>
+          </div>
+        </div>
+        <div class="skill-card" data-category="Web">
+          <h3 class="skill-card__title">Web &amp; APIs</h3>
+          <div class="skill-card__tags">
+            <span class="tag">React.js</span><span class="tag">Node.js</span
+            ><span class="tag">FastAPI</span><span class="tag">REST APIs</span
+            ><span class="tag">React Native</span
+            ><span class="tag">Streamlit</span>
+          </div>
+        </div>
+        <div class="skill-card" data-category="Cloud">
+          <h3 class="skill-card__title">Cloud &amp; DevOps</h3>
+          <div class="skill-card__tags">
+            <span class="tag">AWS (S3, EC2)</span><span class="tag">Docker</span
+            ><span class="tag">MLflow</span
+            ><span class="tag">GitHub Actions</span
+            ><span class="tag">MySQL</span><span class="tag">MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects__grid">
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__num">01</span>
+            <div class="project-card__tags">
+              <span class="tag tag--accent">LLM</span>
+              <span class="tag tag--accent">RAG</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">
+            AI Financial Intelligence Assistant
+          </h3>
+          <p class="project-card__desc">
+            RAG pipeline using LangChain + FAISS for context-aware Q&amp;A over
+            financial documents. XGBoost spending predictor with MLflow tracking
+            deployed via FastAPI + Streamlit.
+          </p>
+          <div class="project-card__stack">
+            <span class="tag">LangChain</span><span class="tag">FAISS</span
+            ><span class="tag">XGBoost</span><span class="tag">FastAPI</span
+            ><span class="tag">MLflow</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card--featured">
+          <div class="project-card__header">
+            <span class="project-card__num">02</span>
+            <div class="project-card__tags">
+              <span class="tag tag--accent">Deep Learning</span>
+              <span class="tag tag--accent">MLOps</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Bone Fracture Detection System</h3>
+          <p class="project-card__desc">
+            YOLO-based PyTorch model for X-ray fracture detection — 91%+ mAP.
+            Full MLOps pipeline: MLflow, Docker, GitHub Actions CI/CD, FastAPI
+            inference endpoint with Streamlit monitoring.
+          </p>
+          <div class="project-card__stack">
+            <span class="tag">YOLO</span><span class="tag">PyTorch</span
+            ><span class="tag">Docker</span><span class="tag">MLflow</span
+            ><span class="tag">FastAPI</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__num">03</span>
+            <div class="project-card__tags">
+              <span class="tag tag--accent">IoT</span>
+              <span class="tag tag--accent">AWS</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">GridWatch Sentinel</h3>
+          <p class="project-card__desc">
+            Real-time transformer monitoring on AWS (S3/EC2). Time-series
+            anomaly detection with Scikit-learn, FastAPI predictions, and a
+            React.js dashboard with failover switching logic.
+          </p>
+          <div class="project-card__stack">
+            <span class="tag">AWS</span><span class="tag">Scikit-learn</span
+            ><span class="tag">React.js</span><span class="tag">FastAPI</span
+            ><span class="tag">IoT</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section class="experience" id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline" id="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Dec 2024 – Jul 2025</span>
+            <h3 class="timeline__role">Full-Stack Intern</h3>
+            <p class="timeline__company">eInfochips</p>
+            <p class="timeline__desc">
+              Deployed an AI chatbot with REST APIs &amp; NLP intent routing.
+              Built a scalable e-commerce platform in React.js + Node.js with
+              ML-ready behavior tracking. Shipped cross-platform mobile apps
+              with React Native.
+            </p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Apr 2024 – Sep 2024</span>
+            <h3 class="timeline__role">Data Science Intern</h3>
+            <p class="timeline__company">Technokrit Solutions</p>
+            <p class="timeline__desc">
+              Engineered automated preprocessing pipelines in Python (Pandas,
+              NumPy). Built Power BI dashboards and SQL-based user segmentation
+              for predictive modeling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact__sub">
+        Open to full-time roles, research collaborations, and interesting
+        conversations about AI &amp; software engineering.
+      </p>
+      <div class="contact__links">
+        <a
+          class="contact__link"
+          href="mailto:keshvibhavinchoksi@gmail.com"
+          aria-label="Email Keshvi"
+        >
+          <svg
+            class="contact__icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            aria-hidden="true"
+          >
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 7-10 7L2 7" />
+          </svg>
+          Email
+        </a>
+        <a
+          class="contact__link"
+          href="https://linkedin.com/in/keshvi-choksi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Keshvi on LinkedIn"
+        >
+          <svg
+            class="contact__icon"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"
+            />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2026 Keshvi Choksi &mdash; Built with HTML5, CSS3 &amp; ES6+
+      </p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
