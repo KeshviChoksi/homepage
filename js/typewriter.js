@@ -33,7 +33,6 @@ export function initTypewriter() {
 
   /**
    * Updates the role line.
-   * @param {string} text - Current partial text to display.
    */
   function setRoleText(text) {
     roleLine.innerHTML = `  role: <span class="c-str">"${text}"</span>,`;

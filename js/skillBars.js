@@ -1,7 +1,7 @@
 /**
  * skillBars.js - Animates skill bar fills and percentage counters
  * when the bars section scrolls into view.
- * ES6 Module - original JS functionality (>5 lines)
+ * ES6 Module - original JS functionality
  */
 
 export function animateSkillBars() {

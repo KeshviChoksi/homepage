@@ -27,7 +27,7 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 
 ## 2. User Personas
 
-### Persona A – "The Recruiter" — Rachel T., Technical Recruiter
+### Persona A – "The Recruiter" — Rachel , Technical Recruiter
 
 - **Age:** 34
 - **Role:** Senior Technical Recruiter at a mid-size tech company
@@ -38,7 +38,7 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 
 ---
 
-### Persona B – "The Peer Engineer" — Marcus L., Software Engineer
+### Persona B – "The Peer Engineer" — Marcus , Software Engineer
 
 - **Age:** 26
 - **Role:** Full-stack engineer at a startup, former CS classmate
@@ -49,7 +49,7 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 
 ---
 
-### Persona C – "The Professor / Advisor" — Dr. Ananya S., CS Faculty
+### Persona C – "The Professor / Advisor" — Dr. Ananya , CS Faculty
 
 - **Age:** 48
 - **Role:** Graduate advisor at Northeastern reviewing students for research assistant positions
@@ -64,25 +64,24 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 
 ### Story 1 – Rachel Discovers a Great Candidate
 
-> Rachel receives Keshvi's application for an ML Engineer role. She clicks the portfolio link in the resume. The homepage loads instantly. She immediately sees Keshvi's name, title ("AI/ML + Full-Stack"), and current university. She scrolls to the Skills section and confirms she knows PyTorch, LangChain, FastAPI, and React — all required for the role. She reads the Bone Fracture Detection project and notes "91%+ mAP" — a concrete outcome. She clicks the email link in the Contact section and sends an interview invite. Total time: 90 seconds.
+> Rachel receives Keshvi's application for an ML Engineer role. She clicks the portfolio link in the resume. The homepage loads instantly. She immediately sees Keshvi's name, title ("AI/ML + Full-Stack"), and current university. She scrolls to the Skills section and confirms she knows PyTorch, LangChain, FastAPI, and React - all required for the role. She reads the Bone Fracture Detection project and notes "91%+ mAP" - a concrete outcome. She clicks the email link in the Contact section and sends an interview invite. Total time: 90 seconds.
 
 ### Story 2 – Marcus Evaluates a Collaboration
 
-> Marcus remembers Keshvi mentioning a financial AI project. He visits her homepage on his phone. It renders cleanly on mobile. He scrolls to Projects, finds "AI Financial Intelligence Assistant," and reads that it uses LangChain + FAISS + XGBoost — tools his team is evaluating. He clicks through to her LinkedIn to message her about possibly sharing notes. He also visits the Writing page out of curiosity and reads the RAG essay — which confirms she understands the underlying architecture deeply.
+> Marcus remembers Keshvi mentioning a financial AI project. He visits her homepage on his phone. It renders cleanly on mobile. He scrolls to Projects, finds "AI Financial Intelligence Assistant," and reads that it uses LangChain + FAISS + XGBoost - tools his team is evaluating. He clicks through to her LinkedIn to message her about possibly sharing notes. He also visits the Writing page out of curiosity and reads the RAG essay - which confirms she understands the underlying architecture deeply.
 
 ### Story 3 – Dr. Ananya Evaluates a Research Candidate
 
-> Dr. Ananya opens three student portfolios side by side. She navigates to Keshvi's About page. She sees the education card: 4.0 GPA at SCET and current enrollment at Northeastern. She reads the interests list and notices "Real-time IoT and sensor data systems" and "Medical AI & computer vision" — both directly relevant to her lab. She makes a note to follow up. The skill bars give her a visual read of proficiency levels. She spends less than 3 minutes but comes away with a clear picture.
+> Dr. Ananya opens three student portfolios side by side. She navigates to Keshvi's About page. She sees the education card: 4.0 GPA at SCET and current enrollment at Northeastern. She reads the interests list and notices "Real-time IoT and sensor data systems" and "Medical AI & computer vision" - both directly relevant to her lab. She makes a note to follow up. The skill bars give her a visual read of proficiency levels. She spends less than 3 minutes but comes away with a clear picture.
 
 ### Story 4 – Keshvi Shares the Site Before an Interview
 
-> Keshvi has a technical phone screen tomorrow. She shares her homepage link with the interviewer in advance. The interviewer spends 5 minutes reading through the projects, noting the MLOps pipeline, Docker, and GitHub Actions usage. During the call, the interviewer says "I saw you used MLflow for experiment tracking — can you walk me through that?" Keshvi's homepage turned a cold screen into a warm, context-rich conversation.
+> Keshvi has a technical phone screen tomorrow. She shares her homepage link with the interviewer in advance. The interviewer spends 5 minutes reading through the projects, noting the MLOps pipeline, Docker, and GitHub Actions usage. During the call, the interviewer says "I saw you used MLflow for experiment tracking - can you walk me through that?" Keshvi's homepage turned a cold screen into a warm, context-rich conversation.
 
 ---
 
 ## 4. Design Mockups
 
-> **Note:** Full Figma wireframes are linked below. Key layout decisions are summarized in text form here for document completeness.
 
 ### Page 1 – index.html (Homepage)
 
@@ -91,8 +90,8 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 │  NAV: [KC logo]      [Home] [About] [Writing]       │
 ├─────────────────────────────────────────────────────┤
 │                                                     │
-│  HERO (2 columns, 100vh):                          │
-│  LEFT: "Hi, I'm / Keshvi / Choksi"                │
+│  HERO (2 columns, 100vh):                           │
+│  LEFT: "Hi, I'm / Keshvi / Choksi"                  │
 │        tagline text                                 │
 │        [About Me btn] [View Projects btn]           │
 │                                                     │
@@ -100,20 +99,20 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 │         with typewriter role effect                 │
 │                                                     │
 ├─────────────────────────────────────────────────────┤
-│  SKILLS (4-column grid):                           │
-│  [Languages] [AI/ML] [Web & APIs] [Cloud & DevOps] │
+│  SKILLS (4-column grid):                            │
+│  [Languages] [AI/ML] [Web & APIs] [Cloud & DevOps]  │
 │   tag pills   tag pills  tag pills   tag pills      │
 ├─────────────────────────────────────────────────────┤
-│  PROJECTS (3-column grid, tinted bg):              │
-│  [01 Financial AI]  [02 Bone Fracture*] [03 Grid]  │
+│  PROJECTS (3-column grid, tinted bg):               │
+│  [01 Financial AI]  [02 Bone Fracture*] [03 Grid]   │
 │  * featured card                                    │
 ├─────────────────────────────────────────────────────┤
-│  EXPERIENCE (timeline, left line):                 │
-│  ● eInfochips 2024–2025                            │
+│  EXPERIENCE (timeline, left line):                  │
+│  ● eInfochips 2024–2025                             │
 │  ● Technokrit 2024                                  │
 ├─────────────────────────────────────────────────────┤
-│  CONTACT (centered):                               │
-│  [Email btn] [LinkedIn btn]                        │
+│  CONTACT (centered):                                │
+│  [Email btn] [LinkedIn btn]                         │
 ├─────────────────────────────────────────────────────┤
 │  FOOTER                                             │
 └─────────────────────────────────────────────────────┘
@@ -125,13 +124,13 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 ┌─────────────────────────────────────────────────────┐
 │  NAV                                                │
 ├─────────────────────────────────────────────────────┤
-│  HERO TEXT: "About Me" + lead paragraph            │
+│  HERO TEXT: "About Me" + lead paragraph             │
 ├─────────────────────────────────────────────────────┤
-│  2-COLUMN GRID:                                    │
-│  LEFT: Education cards (bordered)                  │
-│        Interests list (arrow bullets)              │
+│  2-COLUMN GRID:                                     │
+│  LEFT: Education cards (bordered)                   │
+│        Interests list (arrow bullets)               │
 │                                                     │
-│  RIGHT: Animated skill progress bars               │
+│  RIGHT: Animated skill progress bars                │
 │         (IntersectionObserver triggered)            │
 ├─────────────────────────────────────────────────────┤
 │  FOOTER                                             │
@@ -144,14 +143,14 @@ The homepage replaces a static resume with an interactive, scannable narrative. 
 ┌─────────────────────────────────────────────────────┐
 │  NAV                                                │
 ├─────────────────────────────────────────────────────┤
-│  [AI-Generated Essay badge]                        │
-│  Title: "Why RAG Is the Future of Enterprise AI"   │
-│  Meta note (AI attribution, italic)                │
+│  [AI-Generated Essay badge]                         │
+│  Title: "Why RAG Is the Future of Enterprise AI"    │
+│  Meta note (AI attribution, italic)                 │
 ├─────────────────────────────────────────────────────┤
-│  ARTICLE (max-width 720px, readable column):       │
+│  ARTICLE (max-width 720px, readable column):        │
 │  Intro paragraph                                    │
 │  H2 sections                                        │
-│  Pull quote (green left-border highlight)          │
+│  Pull quote (green left-border highlight)           │
 ├─────────────────────────────────────────────────────┤
 │  FOOTER                                             │
 └─────────────────────────────────────────────────────┘
